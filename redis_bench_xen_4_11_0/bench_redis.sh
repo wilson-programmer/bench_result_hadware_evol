@@ -19,3 +19,5 @@ done
 
 count=$(expr $count - 2)
 mv redis_bench_result.csv redis_bench_result$count.csv
+
+/etc/init.d/redis-server stop
